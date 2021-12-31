@@ -1,0 +1,20 @@
+
+<div class="alltodos container">
+    <ng-container  *ngIf="deletec">
+        <div *ngFor="let Todo of Todoss; let i = index">
+           <div class="card todo_flex">
+            <div class="complete">
+                <input type="checkbox" name="completed" id="completed" (click)="completed()">
+            </div>
+            <div class="todotext">
+                <div class="text" [style.color]="color" [style.text-decoration] = "decoration">{{ Todo.texts }}</div>
+                <div class="dates">{{ date | date:'short' }}</div>
+                <div class="controls"> 
+                    <div class="edit"><button class="btn btn-warning">Edit</button></div>
+                   <div class="delete"><button class="btn btn-danger" (click)="deleteTodo()">Delete</button></div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </ng-container>
+</div>

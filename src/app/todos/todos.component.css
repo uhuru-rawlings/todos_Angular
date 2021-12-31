@@ -1,0 +1,20 @@
+.todo{
+    display: flex;
+}
+.card{
+    padding: 15px;
+}
+.todo_flex{
+    display: flex;
+    column-gap: 20px;
+}
+.controls{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.controls button{
+    font-size: 15px;
+    padding: 3;
+    outline: none;
+}

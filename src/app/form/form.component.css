@@ -1,0 +1,21 @@
+.flex-inputs{
+    display: flex;
+}
+form{
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    margin-left: 10%;
+    top: 80px;
+    box-shadow: 3px 3px 5px gainsboro;
+}
+#todotext{
+    width: 500px;
+}
+#submit{
+    width: 100px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right,red,orangered);
+    background-image: linear-gradient(to right,rgb(0, 183, 255),rgb(0, 128, 64),rgb(166, 255, 0));
+    border: none;
+}
